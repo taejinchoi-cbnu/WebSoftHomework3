@@ -7,7 +7,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import logoHome from "./images/logoHome.png";
 import logoSmall from "./images/logoSmall.png";
 import peoples from "./images/peoples.png";
-import calender from "./images/calender.png";
+import calendar from "./images/calendar.png";
 
 
 const App = () => {
@@ -167,7 +167,7 @@ const App = () => {
           />
           
           <FeatureItem 
-            imgSrc={calender}
+            imgSrc={calendar}
             imgAlt="캘린더 이미지" 
             title="스마트 일정 조율" 
             description="스케줄 맞추기의 고민을 덜어드립니다. 스케줄 자동 분석으로 모두에게 최적화된 미팅 시간을 제안합니다."
