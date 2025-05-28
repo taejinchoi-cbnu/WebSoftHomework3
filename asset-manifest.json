@@ -1,15 +1,19 @@
 {
   "files": {
     "main.css": "/WebSoftHomework3/static/css/main.eb94a280.css",
-    "main.js": "/WebSoftHomework3/static/js/main.6ec4cdf2.js",
+    "main.js": "/WebSoftHomework3/static/js/main.2a6db413.js",
+    "static/media/logoHome.png": "/WebSoftHomework3/static/media/logoHome.bc380fce5214891387d9.png",
+    "static/media/calendar.png": "/WebSoftHomework3/static/media/calendar.834323108126ec6e2af5.png",
     "static/media/bootstrap-icons.woff?": "/WebSoftHomework3/static/media/bootstrap-icons.1295669cd4e305c97f2c.woff",
+    "static/media/logoSmall.png": "/WebSoftHomework3/static/media/logoSmall.d547dee4eb38fc34a295.png",
+    "static/media/peoples.png": "/WebSoftHomework3/static/media/peoples.fe67c75c206fd98ee661.png",
     "static/media/bootstrap-icons.woff2?": "/WebSoftHomework3/static/media/bootstrap-icons.92ea18a81d737146ff04.woff2",
     "index.html": "/WebSoftHomework3/index.html",
     "main.eb94a280.css.map": "/WebSoftHomework3/static/css/main.eb94a280.css.map",
-    "main.6ec4cdf2.js.map": "/WebSoftHomework3/static/js/main.6ec4cdf2.js.map"
+    "main.2a6db413.js.map": "/WebSoftHomework3/static/js/main.2a6db413.js.map"
   },
   "entrypoints": [
     "static/css/main.eb94a280.css",
-    "static/js/main.6ec4cdf2.js"
+    "static/js/main.2a6db413.js"
   ]
 }
