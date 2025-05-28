@@ -1,10 +1,10 @@
 import { forwardRef } from "react";
 import { Navbar, Nav, Container, Button, Form } from "react-bootstrap";
-import logoSmall from "../public/logoSmall.png"
+import logoSmall from "./images/logoSmall.png"
 
 const AppNavbar = forwardRef(({ transparent = false }, ref) => {
 
-  // 네비게이션 바 클래스 계산
+  // 네비게이션 바 클래스 계산 welcomePage Hw에는 필요없음
   const navbarClass = "dashboard-navbar";
 
   return (
