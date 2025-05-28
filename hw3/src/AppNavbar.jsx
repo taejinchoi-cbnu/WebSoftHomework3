@@ -1,5 +1,6 @@
 import { forwardRef } from "react";
 import { Navbar, Nav, Container, Button, Form } from "react-bootstrap";
+import logoSmall from "../public/logoSmall.png"
 
 const AppNavbar = forwardRef(({ transparent = false }, ref) => {
 
@@ -17,7 +18,7 @@ const AppNavbar = forwardRef(({ transparent = false }, ref) => {
         {/* 브랜드 로고 및 제목 */}
         <Navbar.Brand className="d-flex align-items-center navbar-brand-container">
           <img
-            src="/logoSmall.png"
+            src={logoSmall}
             alt="StudyBuddy Logo"
             height="30"
             className="d-inline-block align-top me-2"

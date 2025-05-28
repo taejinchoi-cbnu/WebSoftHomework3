@@ -4,6 +4,12 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
+import logoHome from "../public/logoHome.png";
+import logoSmall from "../public/logoSmall.png";
+import peoples from "../public/peoples.png";
+import calender from "../public/calender.png";
+
+
 const App = () => {
   const navbarRef = useRef();
   const featuresRef = useRef();
@@ -109,7 +115,7 @@ const App = () => {
           
           <div className="hero-image-container">
             <img 
-              src="/logoHome.png"
+              src={logoHome}
               alt="StudyBuddy 메인 이미지" 
               className="hero-main-image"
               loading="eager"
@@ -121,7 +127,7 @@ const App = () => {
           <div className="service-intro-content">
             <div className="service-image-container">
               <img 
-                src="/logoSmall.png"
+                src={logoSmall}
                 alt="StudyBuddy 기본 로고" 
                 className="service-intro-image"
               />
@@ -137,7 +143,7 @@ const App = () => {
             <div className="service-testimonials">
               <div className="testimonial-avatars">
                 <div className="testimonial-avatar">
-                  <img src="/logoHello.png" alt="사용자 후기 1" className="avatar-image" />
+                  <img src={logoHome} alt="사용자 후기 1" className="avatar-image" />
                 </div>
               </div>
               <div className="testimonial-content">
@@ -149,7 +155,7 @@ const App = () => {
 
         <section className="features-section" ref={featuresRef}>
           <FeatureItem 
-            imgSrc="/peoples.png"
+            imgSrc={peoples}
             imgAlt="사람들 이미지" 
             title="파트너 찾기" 
             description="같은 목표를 가진 학생들과 팀을 이루고 함께 성장해보세요. 관심사와 목표가 맞는 팀원을 쉽게 찾을 수 있습니다."
@@ -161,7 +167,7 @@ const App = () => {
           />
           
           <FeatureItem 
-            imgSrc="/calendar.png"
+            imgSrc={calender}
             imgAlt="캘린더 이미지" 
             title="스마트 일정 조율" 
             description="스케줄 맞추기의 고민을 덜어드립니다. 스케줄 자동 분석으로 모두에게 최적화된 미팅 시간을 제안합니다."
