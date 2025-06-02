@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 import { Navbar, Nav, Container, Button, Form } from "react-bootstrap";
-import logoSmall from "./images/logoSmall.png"
+import logoSmall from "./assets/logoSmall.png"
 
 const AppNavbar = forwardRef(({ transparent = false }, ref) => {
 

@@ -4,10 +4,10 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-import logoHome from "./images/logoHome.png";
-import logoSmall from "./images/logoSmall.png";
-import peoples from "./images/peoples.png";
-import calendar from "./images/calendar.png";
+import logoHome from "./assets/logoHome.png";
+import logoSmall from "./assets/logoSmall.png";
+import peoples from "./assets/peoples.png";
+import calendar from "./assets/calendar.png";
 
 
 const App = () => {
