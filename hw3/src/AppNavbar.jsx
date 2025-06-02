@@ -1,17 +1,14 @@
 import { forwardRef } from "react";
 import { Navbar, Nav, Container, Button, Form } from "react-bootstrap";
-import logoSmall from "./assets/logoSmall.png"
+import logoSmall from "./assets/logoSmall.png";
 
-const AppNavbar = forwardRef(({ transparent = false }, ref) => {
-
-  // 네비게이션 바 클래스 계산 welcomePage Hw에는 필요없음
-  const navbarClass = "dashboard-navbar";
+const AppNavbar = forwardRef(() => {
 
   return (
     <Navbar 
       variant="light" 
       expand="lg" 
-      className={navbarClass} 
+      className="dashboard-navbar" 
       fixed="top"
     >
       <Container>
@@ -23,18 +20,16 @@ const AppNavbar = forwardRef(({ transparent = false }, ref) => {
             height="30"
             className="d-inline-block align-top me-2"
           />
-          <span className="fw-bold">
+          <span className="navbar-brand">
             STUDYBUDDY
           </span>
         </Navbar.Brand>
-        
-        {/* 모바일 토글 버튼 */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        
+                
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
             <div className="navbar-right-items">
               <div className="nav-button-group">
+                {/* 다크모드 토글 (라이트모드 고정 과제용) */}
                 <div className="toggle-switch-wrapper">
                   <Form.Check 
                     type="switch"
@@ -45,7 +40,7 @@ const AppNavbar = forwardRef(({ transparent = false }, ref) => {
                   />
                 </div>
                 
-                {/* 로그인/회원가입 버튼들 */}
+                {/* 로그인/회원가입 버튼 */}
                 <Button 
                   variant="outline-dark"
                   className="login-button"
@@ -53,6 +48,7 @@ const AppNavbar = forwardRef(({ transparent = false }, ref) => {
                   로그인
                 </Button>
                 <Button 
+                  variant="primary"
                   className="signup-button"
                 >
                   회원가입
